@@ -1,10 +1,11 @@
 {
   "name": "@arnaudpfu/react-color-picker",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "Simple react color picker.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
+    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,13 +32,19 @@
   "devDependencies": {
     "@types/lodash": "^4.14.182",
     "@types/react": "^18.0.10",
+    "css-loader": "^6.7.1",
     "sass": "^1.52.1",
-    "typescript": "^4.7.2"
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
   },
   "dependencies": {
     "lodash": "^4.17.21",
     "react": "^18.1.0",
     "react-icons": "^4.4.0",
-    "super-color": "^1.0.5"
+    "super-color": "^1.0.6"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "name": "react-simple-color-picker",
+  "version": "0.1.0",
+  "description": "Simple react color picker.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnaudpfu/react-simple-color-picker.git"
+  },
+  "keywords": [
+    "react",
+    "color",
+    "picker",
+    "simple",
+    "color",
+    "conversion"
+  ],
+  "author": "Arnaud Pfundstein",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/arnaudpfu/react-simple-color-picker/issues"
+  },
+  "files": [
+    "./lib/**/*"
+  ],
+  "homepage": "https://github.com/arnaudpfu/react-simple-color-picker#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/react": "^18.0.10",
+    "sass": "^1.52.1",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.1.0",
+    "react-icons": "^4.4.0",
+    "super-color": "^1.0.5"
+  }
+}

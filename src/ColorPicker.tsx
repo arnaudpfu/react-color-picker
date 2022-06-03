@@ -1,5 +1,4 @@
 import React from 'react';
-import './ColorPicker.scss';
 import { ColorPickerHandler } from './types';
 import { ColorPickerInner } from './ColorPickerInner';
 import SuperColor from 'super-color'

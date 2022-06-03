@@ -1,5 +1,4 @@
 import React, { useCallback } from 'react';
-import './ColorFields.scss';
 import { CgArrowsExchangeAltV } from 'react-icons/cg';
 import { ColorValueInput } from './common';
 import { ColorPickerHandler } from './types';

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import './Alpha.scss';
 import { ColorPickerHandler, StyleCSSProperties } from '../types';
 import { Checkboard } from './Checkboard';
 import SuperColor from 'super-color';

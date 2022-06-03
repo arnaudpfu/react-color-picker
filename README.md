@@ -16,7 +16,6 @@ pnpm add @arnaudpfu/react-color-picker
 ```tsx
 import React, { useCallback } from 'react';
 import ColorPicker, { ColorPickerHandler, SuperColor } from '@arnaudpfu/react-color-picker';
-import { PortalFieldContainer } from './PortalFieldContainer';
 
 interface Props {
     value: string;

@@ -1,6 +1,5 @@
 import React from 'react';
 import { SuperHexColor } from 'super-color';
-import './ColorValueInput.scss';
 interface ColorValueInputProps {
     label: string;
     slug: string;

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import './Hue.scss';
 import { ColorPickerHandler, StyleCSSProperties } from '../types';
 import SuperColor from 'super-color';
 

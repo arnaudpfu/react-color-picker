@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { StyleCSSProperties } from '../types';
-import './Saturation.scss';
 import { throttle } from 'lodash';
 
 interface SaturationProps {

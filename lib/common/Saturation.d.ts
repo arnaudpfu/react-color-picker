@@ -1,5 +1,4 @@
 import React from 'react';
-import './Saturation.scss';
 interface SaturationProps {
     h: number;
     sValue: number;
